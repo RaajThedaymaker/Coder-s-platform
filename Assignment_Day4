@@ -1,0 +1,32 @@
+import java.util.Scanner;
+int Result=0
+public class main{
+    public static void main(String args[]){
+        int a,b,mul,sub,add;
+        double div;
+        Scanner in = new scanner(System.in);
+        System.out.println();
+        a=in.nextInt();
+        System.out.println();
+        b=in.nextInt();
+        while(True){
+            System.out.println("Enter 1 to DIvide");
+            System.out.println("Enter 2 to Multiply");
+            System.out.println("Enter 3 to Subtract");
+            System.out.println("Enter 4 to Add");
+            choice=in.nextInt();
+            if(choice==1){
+                System.out.println(a/b);
+            }
+            else if(choice==2){
+                System.out.println(a*b);
+            }
+            else if(choice==3){
+                System.out.println(a-b);
+            }
+            else if(choice==4){
+                System.out.println(a+b);
+            }
+        }
+    }
+}
